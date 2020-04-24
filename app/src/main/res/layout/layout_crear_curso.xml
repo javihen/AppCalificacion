@@ -1,6 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/style_cuadrodialogo"
+    android:layout_margin="7dp"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREAR CURSO"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+        android:gravity="center"/>
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:src="@drawable/icon_folder"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/et_nom_curso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_cuadrotexto"
+        android:layout_margin="7dp"
+        android:fontFamily="@font/montserrat"
+        android:textSize="15dp"
+        android:hint="Nombre del curso"
+        android:textColorHint="@color/textColor"
+        android:textColor="@color/textColor"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/et_nom_materia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_cuadrotexto"
+        android:layout_margin="7dp"
+        android:fontFamily="@font/montserrat"
+        android:textSize="15dp"
+        android:hint="Nombre de la materia"
+        android:textColorHint="@color/textColor"
+        android:textColor="@color/textColor"
+        android:padding="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dialogo_cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CANCELAR"
+            android:textColor="#000"
+            android:fontFamily="@font/montserrat"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:paddingVertical="7dp"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:background="#000"/>
+        <TextView
+            android:id="@+id/dialogo_guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GUARDAR"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:paddingVertical="7dp"/>
+    </LinearLayout>
+
+</LinearLayout>
