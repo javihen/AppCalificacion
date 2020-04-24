@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.List;
+import java.util.List;//comenzamos a qui
 
 public class adaptador_list_curso extends RecyclerView.Adapter<adaptador_list_curso.viewHolder_curso> {
 
