@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "576442285945",
+    "firebase_url": "https://appcalificacion-fa935.firebaseio.com",
+    "project_id": "appcalificacion-fa935",
+    "storage_bucket": "appcalificacion-fa935.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576442285945:android:a6d15a2d36cf1e413ef9a8",
+        "android_client_info": {
+          "package_name": "com.example.appcalificacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576442285945-ker2aqvdbpp03mn69o4h9bfj2h07jqtr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeQfquAHEpNwJC8es-AexOcjzk0kYvHJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576442285945-ker2aqvdbpp03mn69o4h9bfj2h07jqtr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Cuaderno de calificacion</string>
+    <string name="mensaje_inicio">Digite su RDA o CI</string>
+</resources>
