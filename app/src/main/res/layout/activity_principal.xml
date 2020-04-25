@@ -129,19 +129,20 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         />
+
                     <TextView
                         android:id="@+id/titulo2"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="80dp"
-                        android:text="Listado de cursos"
+                        android:text="Usuarios"
                         android:textColor="@color/colorBlack"
                         android:textSize="18dp"
                         android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/imagen2"
-                        app:layout_constraintTop_toTopOf="@id/imagen2"/>
+                        app:layout_constraintTop_toTopOf="@id/imagen2" />
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -196,19 +197,20 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         />
+
                     <TextView
                         android:id="@+id/titulo3"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="80dp"
-                        android:text="Listado de cursos"
+                        android:text="Configuracion"
                         android:textColor="@color/colorBlack"
                         android:textSize="18dp"
                         android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/imagen3"
-                        app:layout_constraintTop_toTopOf="@id/imagen3"/>
+                        app:layout_constraintTop_toTopOf="@id/imagen3" />
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -263,19 +265,20 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         />
+
                     <TextView
                         android:id="@+id/titulo4"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="80dp"
-                        android:text="Listado de cursos"
+                        android:text="Mensajes"
                         android:textColor="@color/colorBlack"
                         android:textSize="18dp"
                         android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/imagen4"
-                        app:layout_constraintTop_toTopOf="@id/imagen4"/>
+                        app:layout_constraintTop_toTopOf="@id/imagen4" />
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
