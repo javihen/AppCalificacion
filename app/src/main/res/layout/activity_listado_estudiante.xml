@@ -9,7 +9,7 @@
 
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar3"
+        android:id="@+id/toolbar_estudiante"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
@@ -47,6 +47,5 @@
         app:backgroundTint="@color/colorPrimary"
         style="@style/Widget.Design.FloatingActionButton"
         app:srcCompat="@drawable/ic_search_white_24dp"
-        android:backgroundTint="@color/colorPrimary"
-        />
+        android:backgroundTint="@color/colorPrimary" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
