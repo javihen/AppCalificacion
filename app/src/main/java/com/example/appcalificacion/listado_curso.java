@@ -6,7 +6,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.database.DataSnapshot;
@@ -58,6 +60,15 @@ public class listado_curso extends AppCompatActivity {
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
+            }
+        });
+        
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialogo_addCurso dialogo = new dialogo_addCurso();
+                dialogo.show(getSupportFragmentManager(),"tag");
+                //Toast.makeText(listado_curso.this, "Bienvenido a registrar", Toast.LENGTH_SHORT).show();
             }
         });
     }
