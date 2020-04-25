@@ -49,6 +49,7 @@ public class listado_curso extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if(dataSnapshot.exists()){
+                    listCurso.clear();
                     for(DataSnapshot datos : dataSnapshot.getChildren()){
                         curso c = datos.getValue(curso.class);
                         listCurso.add(c);
