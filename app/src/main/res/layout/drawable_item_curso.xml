@@ -20,7 +20,8 @@
             android:text="1ro Secundaria A"
             android:textStyle="bold"
             android:textSize="18dp"
-            android:fontFamily="@font/montserrat"/>
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorBlack"/>
         <TextView
             android:id="@+id/list_materia"
             android:layout_width="wrap_content"
