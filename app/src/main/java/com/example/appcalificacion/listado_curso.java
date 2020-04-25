@@ -68,7 +68,6 @@ public class listado_curso extends AppCompatActivity {
             public void onClick(View view) {
                 dialogo_addCurso dialogo = new dialogo_addCurso();
                 dialogo.show(getSupportFragmentManager(),"tag");
-                //Toast.makeText(listado_curso.this, "Bienvenido a registrar", Toast.LENGTH_SHORT).show();
             }
         });
     }
