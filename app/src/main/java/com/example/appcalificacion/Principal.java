@@ -2,6 +2,7 @@ package com.example.appcalificacion;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,6 +21,8 @@ public class Principal extends AppCompatActivity {
 
     BottomAppBar bottomAppBar;
     private BottomSheetDialog bottomSheetDialog;
+    private CardView list_curso;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,12 +30,21 @@ public class Principal extends AppCompatActivity {
 
         bottomAppBar = findViewById(R.id.bottomAppBar);
         setSupportActionBar(bottomAppBar);
+        list_curso = findViewById(R.id.card_listado);
 
         bottomAppBar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                // Toast.makeText(getApplicationContext(),"hola mudo", Toast.LENGTH_LONG).show();
                 lanzarMenu();
+            }
+        });
+
+        list_curso.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Principal.this, listado_curso.class);
+                startActivity(i);
             }
         });
     }
@@ -80,4 +92,5 @@ public class Principal extends AppCompatActivity {
         return true;
 
     }
+
 }

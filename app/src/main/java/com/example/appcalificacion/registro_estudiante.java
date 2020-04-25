@@ -86,7 +86,7 @@ public class registro_estudiante extends AppCompatActivity {
         private void guardar_estudiante(String rude, String nombre, String apellido) {
 
         estudiante obj = new estudiante(rude, nombre, apellido);
-        mDatabase.child("estudiante").child(rude).setValue(obj);
+        mDatabase.child("estudiante").push().setValue(obj);
     }
 
         private void lanzarMenu() {
