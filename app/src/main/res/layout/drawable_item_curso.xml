@@ -8,32 +8,36 @@
     android:padding="8dp"
     android:layout_margin="4dp"
     android:gravity="center_vertical">
+
     <LinearLayout
-        android:layout_width="310dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginLeft="20dp">
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
         <TextView
             android:id="@+id/list_curso"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1ro Secundaria A"
-            android:textStyle="bold"
-            android:textSize="18dp"
             android:fontFamily="@font/montserrat"
-            android:textColor="@color/colorBlack"/>
+            android:text="1ro Secundaria A"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
         <TextView
             android:id="@+id/list_materia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
             android:text="Artes Plasticas y Visuales"
             android:textSize="13dp"
-            android:textStyle="normal"
-            android:fontFamily="@font/montserrat"/>
+            android:textStyle="normal" />
     </LinearLayout>
+
     <ImageView
         android:layout_width="32dp"
         android:layout_height="32dp"
-        android:src="@drawable/ic_menu"/>
+        android:src="@drawable/ic_menu" />
 
 </LinearLayout>

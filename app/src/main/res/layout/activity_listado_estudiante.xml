@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context=".listado_estudiante">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="1ro de Secundaria A"
+        app:subtitle="Computacion NTIC"/>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginHorizontal="8dp"
+        android:id="@+id/rv_estudiantes"
+        />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bar_estudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:navigationIcon="@drawable/ic_menu"
+        android:backgroundTint="@color/colorPrimary"
+        style="@style/Widget.MaterialComponents.BottomAppBar"
+        app:fabAlignmentMode="end"
+        app:fabCradleRoundedCornerRadius="10dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/bar_estudiante"
+        app:backgroundTint="@color/colorPrimary"
+        style="@style/Widget.Design.FloatingActionButton"
+        app:srcCompat="@drawable/ic_search_white_24dp"
+        android:backgroundTint="@color/colorPrimary"
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
