@@ -14,21 +14,44 @@
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:layout_weight="1"
-        app:srcCompat="@drawable/icon_usuario_est" />
+        app:srcCompat="@drawable/icon_usuario_est"
+        android:layout_gravity="left"/>
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="250dp"
-        android:maxLines="2"
-        android:layout_height="wrap_content"
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:text="JUAN CARLOS RODRIFUEZ GONZALES"
-        android:fontFamily="@font/montserrat"/>
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_nom_estudiante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat"
+            android:maxLines="2"
+            android:text="JUAN CARLOS RODRIFUEZ GONZALES"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_rude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="80730702015201548"
+            android:fontFamily="@font/montserrat"
+            android:textSize="8dp"
+            android:gravity="center"/>
+    </LinearLayout>
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:layout_weight="1"
-        app:srcCompat="@drawable/icon_libro_est" />
+        app:srcCompat="@drawable/icon_libro_est"
+        android:gravity="right"/>
+
 </LinearLayout>
