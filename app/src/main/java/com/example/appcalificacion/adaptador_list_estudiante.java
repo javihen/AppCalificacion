@@ -17,7 +17,6 @@ public class adaptador_list_estudiante extends RecyclerView.Adapter<adaptador_li
         this.bdListado = bdListado;
     }
 
-
     @NonNull
     @Override
     public adaptador_list_estudiante.ViewHolder_Est onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -30,7 +29,7 @@ public class adaptador_list_estudiante extends RecyclerView.Adapter<adaptador_li
     public void onBindViewHolder(@NonNull adaptador_list_estudiante.ViewHolder_Est holder, int position) {
         estudiante e = bdListado.get(position);
         holder.tv_nombre.setText(e.getNombre()+" "+ e.getApellido());
-
+        holder.tv_rude.setText(e.getRude());
     }
 
     @Override
@@ -39,9 +38,7 @@ public class adaptador_list_estudiante extends RecyclerView.Adapter<adaptador_li
     }
 
     public class ViewHolder_Est extends RecyclerView.ViewHolder {
-
         TextView tv_nombre, tv_rude;
-
         public ViewHolder_Est(@NonNull View itemView) {
             super(itemView);
             tv_nombre = itemView.findViewById(R.id.tv_nom_estudiante);
